@@ -16,9 +16,9 @@ Original App Design Project - README Template
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category: Lifestyle**
-- **Mobile:**
-- **Story:**
-- **Market:**
+- **Mobile: This app will be devloped for mobile platforms but can also have web version with the same features.**
+- **Story: Users posts travel hotspots, review tourist attractions, and bookmark favorites.**
+- **Market: Any individuals that have access to mobile apps but primarily people who love to travel.**
 - **Habit:**
 - **Scope:**
 
