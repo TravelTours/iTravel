@@ -30,7 +30,7 @@ TravelTours is an application designed for people who are always looking for new
 * New users can register
 * User logs into app
 * User can view their information
-* User can write reviewes
+* User can write reviews
 * User can view their reviews history
 * User can favorite or bookmark tourist attractions
 
