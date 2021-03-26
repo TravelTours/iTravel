@@ -18,8 +18,8 @@ TravelTours is an application designed for people who are always looking for new
 - **Mobile:** This app will be devloped for mobile platforms but can also have web version with the same features.
 - **Story:** Users posts travel hotspots, review tourist attractions, and bookmark favorites.
 - **Market:** Any individuals that have access to mobile apps but primarily people who love to travel.
-- **Habit:**
-- **Scope:**
+- **Habit:** This app can be used very often by people who love to travel and photography.
+- **Scope:** This app use location service to determine nearby tour attractions.
 
 ## Product Spec
 
