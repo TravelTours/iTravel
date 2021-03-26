@@ -14,11 +14,10 @@ Original App Design Project - README Template
 TravelTours is an application designed for people who are always looking for new hotspots. Through the application, users can post reviews of tourist attractions, add new spots for others to discover, and bookmark places they would love to visit. They can also add their own photos of the places they have visited.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category: Lifestyle**
-- **Mobile: This app will be devloped for mobile platforms but can also have web version with the same features.**
-- **Story: Users posts travel hotspots, review tourist attractions, and bookmark favorites.**
-- **Market: Any individuals that have access to mobile apps but primarily people who love to travel.**
+- **Mobile:** This app will be devloped for mobile platforms but can also have web version with the same features.
+- **Story:** Users posts travel hotspots, review tourist attractions, and bookmark favorites.
+- **Market:** Any individuals that have access to mobile apps but primarily people who love to travel.
 - **Habit:**
 - **Scope:**
 
