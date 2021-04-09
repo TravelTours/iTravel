@@ -111,6 +111,13 @@ TravelTours is an application designed for people who are always looking for new
 | password      | string | User sets a password for their account |
 | travelLogo | file | TravelTours logo displays on registration |
 
+### Details
+| Property       | Type       | Description  |
+| ------------- |:-------------:| ----- |
+| book      | string | Allows user to book their travel reservations |
+| famous      | string | User can see what destinations or sites are popular within that area |
+| language | string | User can see the predominate langauge spoken in the area |
+
 ### Profile
 | Property       | Type       | Description  |
 | ------------- |:-------------:| ----- |
