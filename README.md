@@ -104,7 +104,7 @@ TravelTours is an application designed for people who are always looking for new
 [This section will be completed in Unit 9]
 ### Models
 
-#Model: Registration Screen
+**Model: Registration Screen**
 | Property       | Type       | Description  |
 | ------------- |:-------------:| ----- |
 | userID      | string | Unique ID which can be set for that new user |
