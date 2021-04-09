@@ -106,7 +106,7 @@ TravelTours is an application designed for people who are always looking for new
 
 #Model: Registration Screen
 | Property       | Type       | Description  |
-| ------------- |:-------------:| :-----:|
+| ------------- |:-------------:| ----- |
 | userID      | string | Unique ID which can be set for that new user |
 | password      | string | User sets a password for their account |
 | travelLogo | file | TravelTours logo displays on registration |
