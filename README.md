@@ -54,7 +54,7 @@ TravelTours is an application designed for people who are always looking for new
 * Search
    * User can search for other users
    * User can follow/unfollow another user
-   * User can search up the name of contry->city->hotspot
+   * User can search up the name of country->city->hotspot
 * Creation
    * User can post new photo and tag the tourist spot
    * User can write a review of the attraction  
