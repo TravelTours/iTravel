@@ -79,7 +79,7 @@ TravelTours is an application designed for people who are always looking for new
 * Search bar
 * Post
 * Map
-* Settings
+* Profile
 
 **Flow Navigation** (Screen to Screen)
 
@@ -87,7 +87,10 @@ TravelTours is an application designed for people who are always looking for new
 * Registration Screen
 * Stream Screen
 * Creation Screen
-* 
+* Profile Screen
+* Camera 
+* Location Screen
+* Details Screen
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
