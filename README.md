@@ -114,7 +114,7 @@ TravelTours is an application designed for people who are always looking for new
 ### Details
 | Property       | Type       | Description  |
 | ------------- |:-------------:| ----- |
-| book      | string | Allows user to book their travel reservations |
+| book      | file | Allows user to book their travel reservations |
 | famous      | string | User can see what destinations or sites are popular within that area |
 | language | string | User can see the predominate langauge spoken in the area |
 
