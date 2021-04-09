@@ -104,12 +104,23 @@ TravelTours is an application designed for people who are always looking for new
 [This section will be completed in Unit 9]
 ### Models
 
-**Model: Registration Screen**
+## Registration Screen
 | Property       | Type       | Description  |
 | ------------- |:-------------:| ----- |
 | userID      | string | Unique ID which can be set for that new user |
 | password      | string | User sets a password for their account |
 | travelLogo | file | TravelTours logo displays on registration |
+
+## Profile
+| Property       | Type       | Description  |
+| ------------- |:-------------:| ----- |
+| userID      | string | Unique ID for the user |
+| name      | string | name of the user |
+| profile picture | file | Unique profile picture the user uploaded |
+| location | string | where the user is located, can be manually changed |
+| followers | number | amount of followers of the user |
+| following | number | amount of users the user is following|
+| visits | number | amount of different places the user have traveled |
 
 
 
