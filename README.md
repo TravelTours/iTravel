@@ -42,29 +42,54 @@ TravelTours is an application designed for people who are always looking for new
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login Screen
+   * User can login
+* Registration Screen
+   * User can create a new account
+* Stream
+   * User can view feed of tourist attraction photos
+   * User can double tap to bookmark
+* Detail
+   * User can book or make reservations
+   * User can see what is famous in the local
+   * User can see what language is spoken at the destination
+* Search
+   * User can search for other users
+   * User can follow/unfollow another user
+   * User can search up the name of contry->city->hotspot
+* Creation
+   * User can post new photo and tag the tourist spot
+   * User can write a review of the attraction  
+* Profile
+   * Shows profile picture and username
+   * Shows the number of visits, bookmarks, following and followers
+   * User can recommend what they think is the best spot and will show up on their profile page
+* Settings
+   * User can change location (continent - country)
+   * User can look through their account details such as profile picture and make changes
+   * Privacy & Security
+   * Notifications
+   * Help and Support
+* Maps
+   * Users can find their nearest attraction when location service is turned on
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home Feed
+* Search bar
+* Post
+* Map
+* Settings
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login Screen
+* Registration Screen
+* Stream Screen
+* Creation Screen
+* 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
