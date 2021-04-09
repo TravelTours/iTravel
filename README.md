@@ -129,6 +129,14 @@ TravelTours is an application designed for people who are always looking for new
 | following | number | amount of users the user is following|
 | visits | number | amount of different places the user have traveled |
 
+### Feed
+| Property       | Type       | Description  |
+| ------------- |:-------------:| ----- |
+| name of location | string | Shows the name of the location or hotspot the user posts |
+| distance      | number | User can see how far the hotspot is from their current location in miles |
+| description | string | User can view a brief description of the area |
+| ratings | file | User can view the ratings rated by other users of the hotspot |
+
 
 
 ### Networking
