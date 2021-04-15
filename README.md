@@ -137,6 +137,18 @@ TravelTours is an application designed for people who are always looking for new
 | description | string | User can view a brief description of the area |
 | ratings | file | User can view the ratings rated by other users of the hotspot |
 
+### Search
+| Property       | Type       | Description  |
+| ------------- |:-------------:| ----- |
+| name of location | string | On the Search field, used to search user or location |
+| userID      | string | If User search is valid, this is the searched user's UserID |
+| name      | string | If User search is valid, this is the searched user's name | 
+| profile picture | file | If User search is valid, this is the searched user's location|
+| location | string | If Location search is valid, this is the searched location's location |
+| distance      | number | If Location search is valid, this is the searched location's distance from user |
+| description | string | If Location search is valid, this is the searched location's distance description of the area |
+| ratings | file | If Location search is valid, this is the searched location's distance ratings |
+
 
 
 ### Networking
