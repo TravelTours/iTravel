@@ -158,7 +158,7 @@ TravelTours is an application designed for people who are always looking for new
 
 
 ### Networking
-- [Add list of network requests by screen ]
+List of Network Requests per Screen
 * Home Feed Screen
   * (Read/GET) Query all posts where user is author
   * (Create/POST) Create a new like on a post
