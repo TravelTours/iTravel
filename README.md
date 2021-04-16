@@ -172,3 +172,5 @@ TravelTours is an application designed for people who are always looking for new
 * * (Update/PUT) Update user profile image
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+Sygic Travel API
+* Base URL - http://docs.sygictravelapi.com/1.2/
