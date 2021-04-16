@@ -158,7 +158,7 @@ TravelTours is an application designed for people who are always looking for new
 
 
 ### Networking
-List of Network Requests per Screen
+- [Add list of network requests by screen ]
 * Home Feed Screen
   * (Read/GET) Query all posts where user is author
   * (Create/POST) Create a new like on a post
@@ -171,6 +171,5 @@ List of Network Requests per Screen
   * (Read/GET) Query logged in user object
   * (Update/PUT) Update user profile image
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
-Sygic Travel API
+- [Sygic Travel API]
 * Base URL - http://docs.sygictravelapi.com/1.2/
