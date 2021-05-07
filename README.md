@@ -42,6 +42,7 @@ TravelTours is an application designed for people who are always looking for new
 
 * Login Screen
    * User can login
+   <img src="http://g.recordit.co/QDYOrMusi6.gif" width=600>
 * Registration Screen
    * User can create a new account
 * Stream
