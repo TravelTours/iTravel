@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MessageInputBar
+
 
 class FeedViewController: ViewController {
 
