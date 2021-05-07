@@ -36,7 +36,7 @@ TravelTours is an application designed for people who are always looking for new
 
 **Optional Nice-to-have Stories**
 
-* Location service is activicated and users can find nearby hotspots
+- [X] Location service is activicated and users can find nearby hotspots
 
 ### 2. Screen Archetypes
 
