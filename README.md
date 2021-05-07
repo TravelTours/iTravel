@@ -70,6 +70,10 @@ TravelTours is an application designed for people who are always looking for new
    * Help and Support
 * Maps
    * Users can find their nearest attraction when location service is turned on
+ 
+   <img src="http://g.recordit.co/AP3tyCccjV.gif" width=600>
+
+
 
 ### 3. Navigation
 
