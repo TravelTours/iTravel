@@ -16,6 +16,9 @@
 		19D742E8263BCA9A00EA5D21 /* iTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D742E7263BCA9A00EA5D21 /* iTravelTests.swift */; };
 		19D742F3263BCA9A00EA5D21 /* iTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D742F2263BCA9A00EA5D21 /* iTravelUITests.swift */; };
 		19D74301263BCC2400EA5D21 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D74300263BCC2400EA5D21 /* FeedViewController.swift */; };
+		2D8F2197A430863C2BFAD43C /* Pods_iTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C0CD6013E2ACF13D41D3B8 /* Pods_iTravel.framework */; };
+		E64FAA5DC970F447FFCE1160 /* Pods_iTravelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309C86B226959DCEB60D1ECE /* Pods_iTravelTests.framework */; };
+		E91FC4985FAC1BB19CD5539D /* Pods_iTravel_iTravelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5684ECB599CAA5E9E67150A1 /* Pods_iTravel_iTravelUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		19D742F2263BCA9A00EA5D21 /* iTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTravelUITests.swift; sourceTree = "<group>"; };
 		19D742F4263BCA9A00EA5D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D74300263BCC2400EA5D21 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		200FA34DFE63D4845E0F16EF /* Pods-iTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravel.debug.xcconfig"; path = "Target Support Files/Pods-iTravel/Pods-iTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		2128077EABEF56F6EDFB55A2 /* Pods-iTravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravelTests.release.xcconfig"; path = "Target Support Files/Pods-iTravelTests/Pods-iTravelTests.release.xcconfig"; sourceTree = "<group>"; };
+		309C86B226959DCEB60D1ECE /* Pods_iTravelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTravelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C0CD6013E2ACF13D41D3B8 /* Pods_iTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		381C9EF578CE31F87790E5CB /* Pods-iTravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravelTests.debug.xcconfig"; path = "Target Support Files/Pods-iTravelTests/Pods-iTravelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50EF617E3133A7DA2C76CEBD /* Pods-iTravel-iTravelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravel-iTravelUITests.debug.xcconfig"; path = "Target Support Files/Pods-iTravel-iTravelUITests/Pods-iTravel-iTravelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5684ECB599CAA5E9E67150A1 /* Pods_iTravel_iTravelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTravel_iTravelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		870B490E02425C6E0BE1A24E /* Pods-iTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravel.release.xcconfig"; path = "Target Support Files/Pods-iTravel/Pods-iTravel.release.xcconfig"; sourceTree = "<group>"; };
+		E69BCE5EE3F5D3A2278DBFAB /* Pods-iTravel-iTravelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravel-iTravelUITests.release.xcconfig"; path = "Target Support Files/Pods-iTravel-iTravelUITests/Pods-iTravel-iTravelUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8F2197A430863C2BFAD43C /* Pods_iTravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64FAA5DC970F447FFCE1160 /* Pods_iTravelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91FC4985FAC1BB19CD5539D /* Pods_iTravel_iTravelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				19D742E6263BCA9A00EA5D21 /* iTravelTests */,
 				19D742F1263BCA9A00EA5D21 /* iTravelUITests */,
 				19D742CE263BCA9800EA5D21 /* Products */,
+				CC07F1AAAAE39BDC83639CD9 /* Pods */,
+				C00B70358D2A1A69B6068EBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,30 @@
 			path = iTravelUITests;
 			sourceTree = "<group>";
 		};
+		C00B70358D2A1A69B6068EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30C0CD6013E2ACF13D41D3B8 /* Pods_iTravel.framework */,
+				5684ECB599CAA5E9E67150A1 /* Pods_iTravel_iTravelUITests.framework */,
+				309C86B226959DCEB60D1ECE /* Pods_iTravelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC07F1AAAAE39BDC83639CD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				200FA34DFE63D4845E0F16EF /* Pods-iTravel.debug.xcconfig */,
+				870B490E02425C6E0BE1A24E /* Pods-iTravel.release.xcconfig */,
+				50EF617E3133A7DA2C76CEBD /* Pods-iTravel-iTravelUITests.debug.xcconfig */,
+				E69BCE5EE3F5D3A2278DBFAB /* Pods-iTravel-iTravelUITests.release.xcconfig */,
+				381C9EF578CE31F87790E5CB /* Pods-iTravelTests.debug.xcconfig */,
+				2128077EABEF56F6EDFB55A2 /* Pods-iTravelTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D742F7263BCA9A00EA5D21 /* Build configuration list for PBXNativeTarget "iTravel" */;
 			buildPhases = (
+				D23D5B424CD3B1E7404F95A8 /* [CP] Check Pods Manifest.lock */,
 				19D742C9263BCA9800EA5D21 /* Sources */,
 				19D742CA263BCA9800EA5D21 /* Frameworks */,
 				19D742CB263BCA9800EA5D21 /* Resources */,
+				018057992BE6E7B0873B1EA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D742FA263BCA9A00EA5D21 /* Build configuration list for PBXNativeTarget "iTravelTests" */;
 			buildPhases = (
+				7CBA63A4CD4BB2081121D00C /* [CP] Check Pods Manifest.lock */,
 				19D742DF263BCA9A00EA5D21 /* Sources */,
 				19D742E0263BCA9A00EA5D21 /* Frameworks */,
 				19D742E1263BCA9A00EA5D21 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D742FD263BCA9A00EA5D21 /* Build configuration list for PBXNativeTarget "iTravelUITests" */;
 			buildPhases = (
+				1628AED4EFCA6A26DB324557 /* [CP] Check Pods Manifest.lock */,
 				19D742EA263BCA9A00EA5D21 /* Sources */,
 				19D742EB263BCA9A00EA5D21 /* Frameworks */,
 				19D742EC263BCA9A00EA5D21 /* Resources */,
+				918E4B223D6043B51B0AD101 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018057992BE6E7B0873B1EA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTravel/Pods-iTravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTravel/Pods-iTravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTravel/Pods-iTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1628AED4EFCA6A26DB324557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTravel-iTravelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CBA63A4CD4BB2081121D00C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTravelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		918E4B223D6043B51B0AD101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTravel-iTravelUITests/Pods-iTravel-iTravelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTravel-iTravelUITests/Pods-iTravel-iTravelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTravel-iTravelUITests/Pods-iTravel-iTravelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23D5B424CD3B1E7404F95A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19D742C9263BCA9800EA5D21 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		19D742F8263BCA9A00EA5D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200FA34DFE63D4845E0F16EF /* Pods-iTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +604,7 @@
 		};
 		19D742F9263BCA9A00EA5D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870B490E02425C6E0BE1A24E /* Pods-iTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		19D742FB263BCA9A00EA5D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381C9EF578CE31F87790E5CB /* Pods-iTravelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		19D742FC263BCA9A00EA5D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2128077EABEF56F6EDFB55A2 /* Pods-iTravelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		19D742FE263BCA9A00EA5D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50EF617E3133A7DA2C76CEBD /* Pods-iTravel-iTravelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		19D742FF263BCA9A00EA5D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69BCE5EE3F5D3A2278DBFAB /* Pods-iTravel-iTravelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
