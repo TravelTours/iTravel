@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,11 @@
 		19D742F3263BCA9A00EA5D21 /* iTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D742F2263BCA9A00EA5D21 /* iTravelUITests.swift */; };
 		19D74301263BCC2400EA5D21 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D74300263BCC2400EA5D21 /* FeedViewController.swift */; };
 		2D8F2197A430863C2BFAD43C /* Pods_iTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C0CD6013E2ACF13D41D3B8 /* Pods_iTravel.framework */; };
+		DA29B4ED2644C3C30075502D /* YelpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29B4EC2644C3C30075502D /* YelpAPI.swift */; };
+		DA29B4F02644C42B0075502D /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29B4EF2644C42B0075502D /* Point.swift */; };
+		DA29B4F22644C8320075502D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29B4F12644C8320075502D /* SearchViewController.swift */; };
+		DA29B4F62644D15E0075502D /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29B4F52644D15E0075502D /* SearchTableViewCell.swift */; };
+		DA29B4F82644D85D0075502D /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29B4F72644D85D0075502D /* SearchTableViewController.swift */; };
 		E64FAA5DC970F447FFCE1160 /* Pods_iTravelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309C86B226959DCEB60D1ECE /* Pods_iTravelTests.framework */; };
 		E91FC4985FAC1BB19CD5539D /* Pods_iTravel_iTravelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5684ECB599CAA5E9E67150A1 /* Pods_iTravel_iTravelUITests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +67,11 @@
 		50EF617E3133A7DA2C76CEBD /* Pods-iTravel-iTravelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravel-iTravelUITests.debug.xcconfig"; path = "Target Support Files/Pods-iTravel-iTravelUITests/Pods-iTravel-iTravelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5684ECB599CAA5E9E67150A1 /* Pods_iTravel_iTravelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTravel_iTravelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		870B490E02425C6E0BE1A24E /* Pods-iTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravel.release.xcconfig"; path = "Target Support Files/Pods-iTravel/Pods-iTravel.release.xcconfig"; sourceTree = "<group>"; };
+		DA29B4EC2644C3C30075502D /* YelpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPI.swift; sourceTree = "<group>"; };
+		DA29B4EF2644C42B0075502D /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		DA29B4F12644C8320075502D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DA29B4F52644D15E0075502D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		DA29B4F72644D85D0075502D /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		E69BCE5EE3F5D3A2278DBFAB /* Pods-iTravel-iTravelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTravel-iTravelUITests.release.xcconfig"; path = "Target Support Files/Pods-iTravel-iTravelUITests/Pods-iTravel-iTravelUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +128,9 @@
 		19D742CF263BCA9800EA5D21 /* iTravel */ = {
 			isa = PBXGroup;
 			children = (
+				DA29B4EE2644C3DB0075502D /* Model */,
+				DA29B4EB2644C3890075502D /* API */,
+				DA29B4EA2644C3440075502D /* Search */,
 				19D742D0263BCA9800EA5D21 /* AppDelegate.swift */,
 				19D742D2263BCA9800EA5D21 /* SceneDelegate.swift */,
 				19D742D4263BCA9800EA5D21 /* ViewController.swift */,
@@ -168,8 +181,33 @@
 				381C9EF578CE31F87790E5CB /* Pods-iTravelTests.debug.xcconfig */,
 				2128077EABEF56F6EDFB55A2 /* Pods-iTravelTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA29B4EA2644C3440075502D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DA29B4F12644C8320075502D /* SearchViewController.swift */,
+				DA29B4F52644D15E0075502D /* SearchTableViewCell.swift */,
+				DA29B4F72644D85D0075502D /* SearchTableViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DA29B4EB2644C3890075502D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DA29B4EC2644C3C30075502D /* YelpAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DA29B4EE2644C3DB0075502D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA29B4EF2644C42B0075502D /* Point.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,10 +449,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA29B4F62644D15E0075502D /* SearchTableViewCell.swift in Sources */,
+				DA29B4F82644D85D0075502D /* SearchTableViewController.swift in Sources */,
 				19D742D5263BCA9800EA5D21 /* ViewController.swift in Sources */,
+				DA29B4F22644C8320075502D /* SearchViewController.swift in Sources */,
 				19D742D1263BCA9800EA5D21 /* AppDelegate.swift in Sources */,
+				DA29B4F02644C42B0075502D /* Point.swift in Sources */,
 				19D74301263BCC2400EA5D21 /* FeedViewController.swift in Sources */,
 				19D742D3263BCA9800EA5D21 /* SceneDelegate.swift in Sources */,
+				DA29B4ED2644C3C30075502D /* YelpAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
