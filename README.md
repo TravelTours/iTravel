@@ -27,16 +27,15 @@ TravelTours is an application designed for people who are always looking for new
 
 - [X] New users can register
 - [X] User logs into app
+- [X] Location service is activicated and users can find nearby hotspots
 - [ ] User can view their information
 - [ ] User can write reviews and give ratings
-- [ ] User can view their reviews history
 - [ ] User can favorite or bookmark tourist attractions
 - [ ] User can pull up their device camera
 - [ ] User can add photos and write comments
 
 **Optional Nice-to-have Stories**
-
-- [X] Location service is activicated and users can find nearby hotspots
+- [ ] User can view their reviews history
 
 ### 2. Screen Archetypes
 
