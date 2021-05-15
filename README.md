@@ -31,7 +31,7 @@ TravelTours is an application designed for people who are always looking for new
 - [ ] User can view their information
 - [ ] User can write reviews and give ratings
 - [ ] User can favorite or bookmark tourist attractions
-- [ ] User can pull up their device camera
+- [X] User can pull up their device camera
 - [ ] User can add photos and write comments
 
 **Optional Nice-to-have Stories**
